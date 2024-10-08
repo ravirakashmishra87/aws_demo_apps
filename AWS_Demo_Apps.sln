@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3_demo", "S3_demo.csproj", "{F59B67A1-EE69-4280-96EF-3F5EF31E2CD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aws_lambda", "..\aws_lambda\aws_lambda.csproj", "{B6F0BBE7-3695-483F-AD72-54DDF3CF466E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beanstalk_App", "..\Beanstalk_App\Beanstalk_App.csproj", "{BE3E227D-9C48-46F4-A2BF-170438B3DE00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F59B67A1-EE69-4280-96EF-3F5EF31E2CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59B67A1-EE69-4280-96EF-3F5EF31E2CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59B67A1-EE69-4280-96EF-3F5EF31E2CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59B67A1-EE69-4280-96EF-3F5EF31E2CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F0BBE7-3695-483F-AD72-54DDF3CF466E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F0BBE7-3695-483F-AD72-54DDF3CF466E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F0BBE7-3695-483F-AD72-54DDF3CF466E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F0BBE7-3695-483F-AD72-54DDF3CF466E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3E227D-9C48-46F4-A2BF-170438B3DE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3E227D-9C48-46F4-A2BF-170438B3DE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3E227D-9C48-46F4-A2BF-170438B3DE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3E227D-9C48-46F4-A2BF-170438B3DE00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD4F8911-B3D5-48A9-9BB4-1E4ED74E5053}
+	EndGlobalSection
+EndGlobal
